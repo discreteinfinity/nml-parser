@@ -1,0 +1,30 @@
+{
+  "name": "nml-parser",
+  "version": "0.0.1",
+  "description": "parse Traktor .nml files",
+  "main": "nmlParser.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/discreteinfinity/nml-parser.git"
+  },
+  "keywords": [
+    "traktor",
+    "playlist",
+    ".nml",
+    "csp"
+  ],
+  "author": "christian mutikainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discreteinfinity/nml-parser/issues"
+  },
+  "homepage": "https://github.com/discreteinfinity/nml-parser",
+  "dependencies": {
+    "js-csp": "^0.3.3",
+    "lodash": "^3.3.1",
+    "xml2js": "^0.4.5"
+  }
+}

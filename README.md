@@ -11,6 +11,6 @@ var nmlParse = require('./nmlParser.js');
 go(function*() {
     var data =  yield take(nmlParse('playlist.nml'));
     console.log(data)
-    //outputs array of tracks
+    //outputs array of track objects
 });
 ```

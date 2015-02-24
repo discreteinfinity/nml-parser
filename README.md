@@ -4,7 +4,7 @@ Parses a playlist file in Native Instruments Traktor .nml format asynchronously 
 ```
 var csp = require('js-csp'),
     go = csp.go,
-    take = csp.take,
+    take = csp.take;
 
 var nmlParse = require('./nmlParser.js');
 
